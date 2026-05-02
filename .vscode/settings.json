@@ -1,0 +1,93 @@
+{
+    "editor.semanticHighlighting.enabled": true,
+    "workbench.colorCustomizations": {
+        "editor.background": "#1E1E2E",
+        "editor.foreground": "#D9D9D9"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#6A9955",
+        "strings": "#CE9178",
+        "keywords": "#569CD6",
+        "numbers": "#B5CEA8",
+        "types": "#4EC9B0",
+        "functions": "#DCDCAA",
+        "variables": "#9CDCFE",
+        "[One Dark Pro]": {
+            "textMateRules": [
+                {
+                    "scope": "variable.parameter.cpp",
+                    "settings": {
+                        "foreground": "#9CDCFE"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.class.cpp",
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.struct.cpp",
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.enum.cpp",
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.template.cpp",
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": "entity.name.namespace.cpp",
+                    "settings": {
+                        "foreground": "#4FC1FF"
+                    }
+                },
+                {
+                    "scope": "constant.language.cpp",
+                    "settings": {
+                        "foreground": "#569CD6"
+                    }
+                },
+                {
+                    "scope": "preprocessor.cpp",
+                    "settings": {
+                        "foreground": "#C586C0"
+                    }
+                },
+                {
+                    "scope": "storage.type.built-in.cpp",
+                    "settings": {
+                        "foreground": "#569CD6"
+                    }
+                }
+            ]
+        }
+    },
+    // 全局关闭拼写检查
+    "cSpell.enabled": false,
+    // 关闭 Markdown 语法检查
+    "markdownlint.enable": false,
+    // 关闭 Markdown 内置验证
+    "markdown.validate.enabled": false,
+    // 关闭错误高亮（修正为合法值）
+    "editor.errorHighlight": "none",
+    "editor.selectionHighlight": false,
+    "editor.occurrencesHighlight": "off",
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.insertSpaces": false,
+        "editor.detectIndentation": false,
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "none"
+}
