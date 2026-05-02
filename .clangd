@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    - --target=x86_64-w64-mingw32
+    - -std=c++17
+    - -I D:/mingw64/include
+    - -I D:/mingw64/include/c++/15.2.0
+    - -I D:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32
+    - -I D:/mingw64/x86_64-w64-mingw32/include
+  Compiler: D:/mingw64/bin/g++.exe

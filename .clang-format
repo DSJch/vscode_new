@@ -1,0 +1,13 @@
+BasedOnStyle: LLVM
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+AccessModifierOffset: -4
+IndentPPDirectives: None
+
+# 核心：禁止把单行代码拆成多行！
+ColumnLimit: 1000          # 超级宽，不换行
+BreakBeforeBinaryOperators: None
+AllowShortFunctionsOnASingleLine: All
+AllowShortBlocksOnASingleLine: Always
+SortIncludes: false
